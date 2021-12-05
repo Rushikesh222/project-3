@@ -8,12 +8,57 @@
     <title>component library</title>
   </head>
   <body>
-    <h1>welcome to rushikesh component</h1>
-    <p>
-      I am attending neog.camp and I want to make a libary which would make all
-      my project look good and consistent.
-    </p>
-    <hr />
+    <nav class="navigation container">
+      <div class="nav-brand">It's Rushikesh</div>
+      <ul class="list-out-inline nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">Product</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">About</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="hero">
+      <img class="hero-img" src="./logo/logo2.png" alt="" />
+      <h1 class="hero-headings">
+        heading inside<span class="heading-inverted"> header</span>
+      </h1>
+    </header>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Technology</h1>
+        <p>
+          I'm familiar with HTML,CSS,Javascript,NodeJS,ReactJS and web Hosting
+        </p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container container-center">
+        <h1>Project</h1>
+        <p>
+          I like to Showcase my work and thus ,you can see my project hosted
+          online
+        </p>
+        <a class="link primary-link" href="./project.html">Browser Projects</a>
+      </div>
+    </section>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Read Blogs</h1>
+        <p>
+          Javascript Python Django API HTML Typescript His articles are very
+          in-depth and informative, and he cares about responding to users and
+          helping them out as well.
+        </p>
+        <a class="link secondary-link" href="./blogs.html">Blogs Views</a>
+      </div>
+    </section>
+
+    <!-- <hr />
     <h2>@typrography</h2>
     <h1>This is the biggest heading</h1>
     <h2>this is the second biggest</h2>
@@ -24,21 +69,24 @@
     <small>this is relatively</small>
     <h2>@container</h2>
     <h3>@fluid container</h3>
-    <div>this is fluid container and it will go till the end of the page</div>
+    <div class="container">
+      this is fluid container and it will go till the end of the page
+    </div>
     <h3>@center container</h3>
-    <div>this is centred container and it will go till the specific width</div>
+    <div class="container container-center">
+      this is centred container and it will go till the specific width
+    </div>
     <hr />
     <h2>@links</h2>
-    <a href="https://www.google.com/">primary Link</a>
-    <a href="https://www.google.com/">secondary link</a>
+
     <hr />
     <h2>@list</h2>
     <h3>unordered list</h3>
-    <ul>
+    <ul class="list-non-bullet">
       here my list
-      <li>1.Item</li>
-      <li>2.Item</li>
-      <li>3.Item</li>
+      <li class="list-item-inline">1.Item</li>
+      <li class="list-item-inline">2.Item</li>
+      <li class="list-item-inline">3.Item</li>
     </ul>
     <h3>unordered inline list</h3>
     <ul>
@@ -51,47 +99,14 @@
       <li>egg</li>
       <li>break</li>
     </ol>
-    <h2>@nav</h2>
-    <nav>
-      <div>iambrand</div>
-      <ul>
-        <li>
-          <a href="/">home</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="/">product</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="/">about</a>
-        </li>
-      </ul>
-    </nav>
-    <hr />
-    <h2>header</h2>
-    <header>
-      <img src="./logo/logo2.png" alt="" />
-      <h1>heading insdse header</h1>
-    </header>
-    <hr />
-    <h2>@section</h2>
-    <section>
-      <h3>white section</h3>
-      <p>the means white background</p>
-    </section>
-    <section>
-      <h3>off white section</h3>
-      <p>with gray background</p>
-    </section>
-    <footer>
-      <div>some small heading inside footer</div>
-      <ul>
-        <li>social1</li>
-        <li>social2</li>
-        <li>social3</li>
+    <h2>@nav</h2> -->
+
+    <footer class="footer">
+      <div class="footer-header">Social Media Presence</div>
+      <ul class="social-links">
+        <li class="list-item-inline"><a class="link" href="/"></a>FaceBook</li>
+        <li class="list-item-inline"><a class="link" href="/"></a>Instagram</li>
+        <li class="list-item-inline"><a class="link" href="."></a>Discord</li>
       </ul>
     </footer>
     <script src="./app.js"></script>
