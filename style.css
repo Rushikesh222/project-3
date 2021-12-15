@@ -1,19 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,700&family=Roboto:ital,wght@1,700&display=swap");
 :root {
-  ---primary-color: #7c3aed;
-  ---drak-gray: #6b728a;
-  ---white-off: #dae3fd;
+  ---primary-color: black;
+  ---drak-gray: rgb(238, 234, 175);
 }
 
 body {
-  background-color: white;
+  background-image: url(./logo/cream.jpg);
+  width: 100%;
+  height: 100vh;
   font-family: "Mulish", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
 }
 hr {
   margin: 2rem 0rem;
 }
 .container {
   padding: 0rem 1rem;
+  color: black;
 }
 .container-center {
   max-width: 600px;
@@ -43,9 +48,8 @@ hr {
 }
 
 .navigation {
-  background-color: var(---primary-color);
-  color: white;
-  padding: 1rem;
+  color: black;
+  padding: 2rem 1rem;
   border-top-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
@@ -53,7 +57,7 @@ hr {
   text-align: right;
 }
 .navigation .link {
-  color: white;
+  color: black;
 }
 .navigation .link-active {
   font-weight: bold;
@@ -81,13 +85,27 @@ hr {
   text-align: center;
 }
 .ow {
-  background-color: var(---white-off);
+  background-color: var(---black-off);
+}
+/* footer {
+  background-image: url(./logo/sddefault.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 50% 10px;
+  width: 100%;
+  clear: both;
+} */
+footer {
+  float: left;
+  width: 100%;
+  clear: both;
+  background-repeat: no-repeat;
+  background-size: 40%;
 }
 .footer {
-  background-color: var(---primary-color);
   padding: 2rem 1rem;
   text-align: center;
-  color: white;
+  color: black;
   border-top-right-radius: 1rem;
 }
 .footer .footer-header {
@@ -95,7 +113,7 @@ hr {
   font-size: large;
 }
 .footer .link {
-  color: white;
+  color: black;
 }
 .footer ul {
   padding-inline-start: 0px;
