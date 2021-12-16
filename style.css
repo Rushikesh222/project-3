@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,700&family=Roboto:ital,wght@1,700&display=swap");
 :root {
   ---primary-color: black;
-  ---drak-gray: rgb(238, 234, 175);
+  ---drak-gray: rgb(27, 27, 27);
 }
 
 body {
-  background-image: url(./logo/cream.jpg);
+  background-image: #fffdd0;
   width: 100%;
   height: 100vh;
   font-family: "Mulish", sans-serif;
@@ -117,4 +117,63 @@ footer {
 }
 .footer ul {
   padding-inline-start: 0px;
+}
+body {
+  margin: unset;
+  height: 100vh;
+  background-color: white transparent;
+  color: rgb(141, 210, 233) transparent;
+  font-family: sans-serif;
+  text-align: center;
+}
+.single-rd {
+  /* background-color: white;
+  color: rgb(141, 210, 233); */
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+  top: 50%;
+  left: 100%;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  transition: 2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  transform: translate(-50%, -50%);
+}
+.single-rd .face {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  border: 2px solid #27f0e6;
+  background-color: #63d5f170;
+  box-shadow: 0px 0px 150px #27f0e6;
+}
+.single-rd .face.top {
+  transform: rotateX(90deg);
+  margin-top: -50%;
+}
+.single-rd .face.right {
+  transform: rotateY(90deg);
+  margin-left: 50%;
+}
+.single-rd .face.left {
+  transform: rotateY(-90deg);
+  margin-left: -50%;
+}
+.single-rd .face.bottom {
+  transform: rotateX(90deg);
+  margin-top: 50%;
+}
+.single-rd .face.back {
+  transform: translateZ(125px);
+}
+.single-rd .face.front {
+  transform: translateZ(-125px);
+}
+.single-rd:hover {
+  transform: rotateX(-25deg) rotateY(-40deg) translate(-50%, -50%);
+  transition: 2s cubic-bezier(0.68, 0.55, 0.27, 1.55);
+  left: 50%;
+  top: 30%;
+  width: 450px;
+  height: 450px;
 }
