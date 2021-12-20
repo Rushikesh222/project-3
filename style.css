@@ -118,8 +118,8 @@ footer {
 .footer ul {
   padding-inline-start: 0px;
 }
-body {
-  margin: unset;
+.cube {
+  margin-top: 10%;
   height: 100vh;
   background-color: white transparent;
   color: rgb(141, 210, 233) transparent;
@@ -173,7 +173,7 @@ body {
   transform: rotateX(-25deg) rotateY(-40deg) translate(-50%, -50%);
   transition: 2s cubic-bezier(0.68, 0.55, 0.27, 1.55);
   left: 50%;
-  top: 30%;
+  top: 50%;
   width: 450px;
   height: 450px;
 }
