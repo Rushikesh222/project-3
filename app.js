@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 const cubes = document.querySelector(".cube");
 function cubeMove() {
   cubes.forEach((cubess) => {
@@ -34,3 +35,5 @@ new ScrollMagic.Scene({ triggerElement: "#sec1" })
 //   .addIndicators() // add indicators (requires plugin)
 //   .addTo(controller);
 >>>>>>> c54afa79e2c5e9ed2a2f503bda9f0f074803b975
+=======
+>>>>>>> parent of c54afa7 (Merge pull request #1 from Tejs1/main)
