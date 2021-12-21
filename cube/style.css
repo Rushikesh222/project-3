@@ -106,3 +106,16 @@ body {
   transform: rotateX(-25deg) rotateY(-40deg) translate(-50%, -50%);
   transition: 2s cubic-bezier(0.68, 0.55, 0.27, 1.55);
 }
+
+.project1 {
+  padding-right: 60px;
+  color: #272727;
+  font-size: 40px;
+}
+.project1 i {
+  padding-right: 10px;
+  margin-right: 2px;
+}
+.fas:hover {
+  color: lightgray;
+}

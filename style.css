@@ -199,3 +199,60 @@ body {
 .fab:hover {
   color: lightgray;
 }
+.project-heading {
+  position: absolute;
+  text-align: center;
+  left: 40%;
+}
+.container h2 {
+  position: absolute;
+  left: 5rem;
+  border-bottom: black solid 2px;
+  width: 80rem;
+  margin-top: 0.1rem;
+}
+.container p {
+  position: absolute;
+  left: 5rem;
+  margin-top: 2.5rem;
+}
+
+.project1 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 4rem;
+  color: #272727;
+  font-size: 20px;
+}
+.project1 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.project1:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.project2 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 25rem;
+  color: #272727;
+  font-size: 20px;
+}
+.project2 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.project2:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.fas:hover {
+  color: lightgray;
+}
