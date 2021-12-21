@@ -204,14 +204,14 @@ body {
   text-align: center;
   left: 40%;
 }
-.container h2 {
+.container1 h2 {
   position: absolute;
   left: 5rem;
   border-bottom: black solid 2px;
   width: 80rem;
   margin-top: 0.1rem;
 }
-.container p {
+.container1 p {
   position: absolute;
   left: 5rem;
   margin-top: 2.5rem;
