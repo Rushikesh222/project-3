@@ -59,6 +59,14 @@ body {
   border-bottom-left-radius: 1rem;
   padding: 0.5rem 0.5rem;
 }
+.image img {
+  position: absolute;
+  top: 12px;
+  height: 80px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .navigation {
   color: black;

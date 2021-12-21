@@ -5,5 +5,5 @@ var controller = new ScrollMagic.Controller({
 // build scenes
 new ScrollMagic.Scene({ triggerElement: "#sec1" })
   .setClassToggle("#hh", "active") // add class toggle
-  .addIndicators() // add indicators (requires plugin)
+  // .addIndicators() // add indicators (requires plugin)
   .addTo(controller);
