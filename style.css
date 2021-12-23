@@ -253,6 +253,222 @@ body {
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
+.project4 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 4rem;
+  color: #272727;
+  font-size: 20px;
+}
+.project4 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.project4:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.project5 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 25rem;
+  color: #272727;
+  font-size: 20px;
+}
+.project5 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.project5:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.project6 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 4rem;
+  color: #272727;
+  font-size: 20px;
+}
+.project6 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.project6:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.project7 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 25rem;
+  color: #272727;
+  font-size: 20px;
+}
+.project7 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.project7:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.project8 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 4rem;
+  color: #272727;
+  font-size: 20px;
+}
+.project8 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.project8:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.project9 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 25rem;
+  color: #272727;
+  font-size: 20px;
+}
+.project9 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.project9:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.project10 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 4rem;
+  color: #272727;
+  font-size: 20px;
+}
+.project10 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.project10:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.project11 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 25rem;
+  color: #272727;
+  font-size: 20px;
+}
+.project11 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.project11:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.project12 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 4rem;
+  color: #272727;
+  font-size: 20px;
+}
+.project12 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.project12:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.project13 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 25rem;
+  color: #272727;
+  font-size: 20px;
+}
+.project13 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.project13:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.project14 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 4rem;
+  color: #272727;
+  font-size: 20px;
+}
+.project14 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.project14:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.project15 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 25rem;
+  color: #272727;
+  font-size: 20px;
+}
+.project15 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.project15:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
 .fas:hover {
   color: lightgray;
 }
