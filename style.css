@@ -472,3 +472,31 @@ body {
 .fas:hover {
   color: lightgray;
 }
+
+.Blogs1 {
+  position: absolute;
+  margin-top: 3.5rem;
+  color: var(---primary-color);
+  border-radius: 0.5rem;
+  left: 4rem;
+  color: #272727;
+  font-size: 20px;
+}
+.Blogs1 i {
+  padding-right: 4px;
+  margin-right: 2px;
+}
+.Blogs1:hover {
+  border-bottom: black solid;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.footer-main-div1 {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  bottom: 0;
+  background: #fffdd0;
+  padding: 10px 0px;
+  position: absolute;
+}
