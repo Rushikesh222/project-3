@@ -4,180 +4,349 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Rushikesh Shirsat</title>
+    <meta name="description" content="Web projects by Rushikesh Shirsat with source code and live demos." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: { accent: "#2dd4bf" },
+            fontFamily: {
+              sans: ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
     <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <title>Project</title>
   </head>
-  <body>
-    <nav class="navigation container">
-      <div class="image">
-        <img src="./logo/logo.png" alt="" />
+  <body class="bg-zinc-950 text-zinc-100 antialiased mesh min-h-screen">
+    <header class="sticky top-0 z-40 border-b border-white/10 glass">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
+        <a href="./index.html" class="flex items-center gap-3">
+          <span
+            class="flex h-10 w-10 items-center justify-center rounded-xl bg-accent/15 text-sm font-extrabold tracking-tight text-accent"
+            >RS</span
+          >
+          <span class="text-base font-semibold tracking-tight sm:text-lg">Rushikesh</span>
+        </a>
+        <button
+          id="nav-toggle"
+          class="inline-flex items-center justify-center rounded-lg border border-white/10 p-2 text-zinc-200 md:hidden"
+          aria-controls="mobile-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+        <ul class="hidden items-center gap-8 text-sm font-medium text-zinc-300 md:flex">
+          <li><a class="transition hover:text-accent" href="./index.html">Home</a></li>
+          <li><a class="text-white" href="./project.html">Projects</a></li>
+          <li><a class="transition hover:text-accent" href="./blogs.html">Blogs</a></li>
+        </ul>
+      </nav>
+      <div id="mobile-nav" class="hidden border-t border-white/10 px-4 py-4 md:hidden">
+        <ul class="flex flex-col gap-3 text-sm font-medium text-zinc-300">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./project.html">Projects</a></li>
+          <li><a href="./blogs.html">Blogs</a></li>
+        </ul>
       </div>
-      <ul class="list-out-inline nav-pills">
-        <li class="list-item-inline">
-          <a class="link link" href="./index.html"target="_blank" >Home</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="./project.html"target="_blank" >Project</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="./blogs.html" target="_blank" >Blogs</a>
-        </li>
-      </ul>
-    </nav>
-    <h1 class="project-heading">Welcome To My Project Era</h1>
-    <section class="section">
-      <div class="container1 container1-center">
-        <h2>Cash Register 💵</h2>
-        <p>In this project we tell how many change you have to give</p>
-        <a class="link project1" href="https://github.com/Rushikesh222/Cash-Register"
-        target="_blank"  ><i class="fas fa-code"></i>Browser Projects</a
-        >
-        <a class="link project2" href="https://cashregister15.netlify.app/"
-        target="_blank"  ><i class="far fa-play-circle"></i>Live Watch</a
-        >
+    </header>
+
+    <main class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+      <p class="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Selected work</p>
+      <h1 class="mt-3 text-3xl font-extrabold tracking-tight sm:text-5xl">Projects</h1>
+      <p class="mt-4 max-w-2xl text-zinc-400">
+        Apps, quizzes, and tools I built while learning frontend development. Every project has source code and a live
+        demo.
+      </p>
+
+      <div class="mt-12 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+        <article class="card-glow flex flex-col rounded-3xl border border-white/10 bg-white/5 p-6 transition">
+          <h2 class="text-xl font-bold">Cash Register</h2>
+          <p class="mt-2 flex-1 text-sm leading-relaxed text-zinc-400">
+            Calculates how much change to return after a bill.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a
+              class="inline-flex rounded-full bg-accent px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-teal-300"
+              href="https://github.com/Rushikesh222/Cash-Register"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Source</a
+            >
+            <a
+              class="inline-flex rounded-full border border-white/15 px-4 py-2 text-sm font-semibold hover:border-accent hover:text-accent"
+              href="https://cashregister15.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Live demo</a
+            >
+          </div>
+        </article>
+
+        <article class="card-glow flex flex-col rounded-3xl border border-white/10 bg-white/5 p-6 transition">
+          <h2 class="text-xl font-bold">Banana Speak</h2>
+          <p class="mt-2 flex-1 text-sm leading-relaxed text-zinc-400">
+            Translate English into banana speak using an API.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a
+              class="inline-flex rounded-full bg-accent px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-teal-300"
+              href="https://github.com/Rushikesh222/Banana-speak"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Source</a
+            >
+            <a
+              class="inline-flex rounded-full border border-white/15 px-4 py-2 text-sm font-semibold hover:border-accent hover:text-accent"
+              href="https://bananatranslatewow.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Live demo</a
+            >
+          </div>
+        </article>
+
+        <article class="card-glow flex flex-col rounded-3xl border border-white/10 bg-white/5 p-6 transition">
+          <h2 class="text-xl font-bold">Lucky Birthday</h2>
+          <p class="mt-2 flex-1 text-sm leading-relaxed text-zinc-400">
+            Check whether a birthday date is lucky.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a
+              class="inline-flex rounded-full bg-accent px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-teal-300"
+              href="https://github.com/Rushikesh222/Lucky-Birthday/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Source</a
+            >
+            <a
+              class="inline-flex rounded-full border border-white/15 px-4 py-2 text-sm font-semibold hover:border-accent hover:text-accent"
+              href="https://lucky-birthdatego.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Live demo</a
+            >
+          </div>
+        </article>
+
+        <article class="card-glow flex flex-col rounded-3xl border border-white/10 bg-white/5 p-6 transition">
+          <h2 class="text-xl font-bold">Stock Manager</h2>
+          <p class="mt-2 flex-1 text-sm leading-relaxed text-zinc-400">
+            See stock profit and loss for bull or bear markets.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a
+              class="inline-flex rounded-full bg-accent px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-teal-300"
+              href="https://github.com/Rushikesh222/Stock"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Source</a
+            >
+            <a
+              class="inline-flex rounded-full border border-white/15 px-4 py-2 text-sm font-semibold hover:border-accent hover:text-accent"
+              href="https://yourstockinfo.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Live demo</a
+            >
+          </div>
+        </article>
+
+        <article class="card-glow flex flex-col rounded-3xl border border-white/10 bg-white/5 p-6 transition">
+          <h2 class="text-xl font-bold">Fun With Triangle</h2>
+          <p class="mt-2 flex-1 text-sm leading-relaxed text-zinc-400">
+            Explore triangle quizzes, angles, and area calculations.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a
+              class="inline-flex rounded-full bg-accent px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-teal-300"
+              href="https://github.com/Rushikesh222/triangle-fun"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Source</a
+            >
+            <a
+              class="inline-flex rounded-full border border-white/15 px-4 py-2 text-sm font-semibold hover:border-accent hover:text-accent"
+              href="https://funwithtriangle42.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Live demo</a
+            >
+          </div>
+        </article>
+
+        <article class="card-glow flex flex-col rounded-3xl border border-white/10 bg-white/5 p-6 transition">
+          <h2 class="text-xl font-bold">Birthday is Palindrome</h2>
+          <p class="mt-2 flex-1 text-sm leading-relaxed text-zinc-400">
+            Check if a birthday is a palindrome and how many days remain.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a
+              class="inline-flex rounded-full bg-accent px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-teal-300"
+              href="https://github.com/Rushikesh222/Birthday-palindrome"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Source</a
+            >
+            <a
+              class="inline-flex rounded-full border border-white/15 px-4 py-2 text-sm font-semibold hover:border-accent hover:text-accent"
+              href="https://birthdayispalindrome2.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Live demo</a
+            >
+          </div>
+        </article>
+
+        <article class="card-glow flex flex-col rounded-3xl border border-white/10 bg-white/5 p-6 transition">
+          <h2 class="text-xl font-bold">Emoji Pedia</h2>
+          <p class="mt-2 flex-1 text-sm leading-relaxed text-zinc-400">Look up the meaning of emojis.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a
+              class="inline-flex rounded-full bg-accent px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-teal-300"
+              href="https://codesandbox.io/s/neogcamp-emojipedia-forked-bvlwkd?file=/src/App.js"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Source</a
+            >
+            <a
+              class="inline-flex rounded-full border border-white/15 px-4 py-2 text-sm font-semibold hover:border-accent hover:text-accent"
+              href="https://bvlwkd.csb.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Live demo</a
+            >
+          </div>
+        </article>
+
+        <article class="card-glow flex flex-col rounded-3xl border border-white/10 bg-white/5 p-6 transition">
+          <h2 class="text-xl font-bold">Do you know me?</h2>
+          <p class="mt-2 flex-1 text-sm leading-relaxed text-zinc-400">A CLI quiz about me.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a
+              class="inline-flex rounded-full bg-accent px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-teal-300"
+              href="https://github.com/Rushikesh222/CLI-Quiz-App"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Source</a
+            >
+            <a
+              class="inline-flex rounded-full border border-white/15 px-4 py-2 text-sm font-semibold hover:border-accent hover:text-accent"
+              href="https://replit.com/@RushikeshShirsa/Quize-App-2?embed=1&output=1#index.js"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Live demo</a
+            >
+          </div>
+        </article>
+
+        <article class="card-glow flex flex-col rounded-3xl border border-white/10 bg-white/5 p-6 transition">
+          <h2 class="text-xl font-bold">Books For Fun</h2>
+          <p class="mt-2 flex-1 text-sm leading-relaxed text-zinc-400">A book collection to share with friends.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a
+              class="inline-flex rounded-full bg-accent px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-teal-300"
+              href="https://codesandbox.io/s/bookscollection-forked-k3f3gh?file=/src/App.js"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Source</a
+            >
+            <a
+              class="inline-flex rounded-full border border-white/15 px-4 py-2 text-sm font-semibold hover:border-accent hover:text-accent"
+              href="https://fun-for-books.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Live demo</a
+            >
+          </div>
+        </article>
+
+        <article class="card-glow flex flex-col rounded-3xl border border-white/10 bg-white/5 p-6 transition">
+          <h2 class="text-xl font-bold">Yoda Speak</h2>
+          <p class="mt-2 flex-1 text-sm leading-relaxed text-zinc-400">Translate English into Yoda speak.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a
+              class="inline-flex rounded-full bg-accent px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-teal-300"
+              href="https://github.com/Rushikesh222/Yoda-talk"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Source</a
+            >
+            <a
+              class="inline-flex rounded-full border border-white/15 px-4 py-2 text-sm font-semibold hover:border-accent hover:text-accent"
+              href="https://yoda-speak2.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Live demo</a
+            >
+          </div>
+        </article>
+
+        <article class="card-glow flex flex-col rounded-3xl border border-white/10 bg-white/5 p-6 transition sm:col-span-2 xl:col-span-1">
+          <h2 class="text-xl font-bold">Quiz for Attack On Titan Lover</h2>
+          <p class="mt-2 flex-1 text-sm leading-relaxed text-zinc-400">
+            A quiz for fans of Attack on Titan.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a
+              class="inline-flex rounded-full bg-accent px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-teal-300"
+              href="https://github.com/Rushikesh222/AOT-Quiz_APP"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Source</a
+            >
+            <a
+              class="inline-flex rounded-full border border-white/15 px-4 py-2 text-sm font-semibold hover:border-accent hover:text-accent"
+              href="https://replit.com/@RushikeshShirsa/AOT-QuizAPP?embed=1&output=1#index.js"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Live demo</a
+            >
+          </div>
+        </article>
       </div>
-    </section>
-    <section class="section">
-      <div class="container1 container1-center">
-        <h2>Banana Speak 🗣️</h2>
-        <p>tanslate English into banana by using API </p>
-        <a class="link project4" href="https://github.com/Rushikesh222/Banana-speak"
-        target="_blank"  ><i class="fas fa-code"></i>Browser Projects</a
-        >
-        <a class="link project5" href="https://bananatranslatewow.netlify.app/"
-        target="_blank" ><i class="far fa-play-circle"></i>Live Watch</a
-        >
-      </div>
-    </section>
-   
-    <section class="section">
-      <div class="container1 container1-center">
-        <h2>Lucky Birthday 🤩</h2>
-        <p>I Made Awesome Project for people who want to check there birthday date is lucky or not </p>
-        <a class="link project6" href="https://github.com/Rushikesh222/Lucky-Birthday/"
-        target="_blank" ><i class="fas fa-code"></i>Browser Projects</a
-        >
-        <a class="link project7" href="https://lucky-birthdatego.netlify.app/"
-        target="_blank"  ><i class="far fa-play-circle"></i>Live Watch</a
-        >
-      </div>
-    </section>
-    <section class="section">
-      <div class="container1 container1-center">
-        <h2>Stock Manager 📉</h2>
-        <p>Stock Manager is for the people that stock market bull or bear</p>
-        <a class="link project8" href="https://github.com/Rushikesh222/Stock"
-        target="_blank"  ><i class="fas fa-code"></i>Browser Projects</a
-        >
-        <a class="link project9" href="https://yourstockinfo.netlify.app/"
-        target="_blank" ><i class="far fa-play-circle"></i>Live Watch</a
-        >
-      </div>
-    </section>
-    <section class="section"> 
-      <div class="container1 container1-center">
-        <h2>Fun With Triangle 🔺</h2>
-        <p>I Made this website for make fun with triangle</p>
-        <a class="link project10" href="https://github.com/Rushikesh222/triangle-fun"
-        target="_blank"  ><i class="fas fa-code"></i>Browser Projects</a
-        >
-        <a class="link project11" href="https://funwithtriangle42.netlify.app/"
-         target="_blank" ><i class="far fa-play-circle"></i>Live Watch</a
-        >
-      </div>
-    </section>
-    <section class="section"> 
-      <div class="container1 container1-center">
-        <h2>Birthday is Palindrome 🥳</h2>
-        <p>check your brithday is palindorme or not check how mady day is remaining </p>
-        <a class="link project10" href="https://github.com/Rushikesh222/Birthday-palindrome"
-        target="_blank" ><i class="fas fa-code"></i>Browser Projects</a
-        >
-        <a class="link project11" href="https://birthdayispalindrome2.netlify.app/"
-        target="_blank" ><i class="far fa-play-circle"></i>Live Watch</a
-        >
-      </div>
-    </section>
-    <section class="section"> 
-      <div class="container1 container1-center">
-        <h2>Emoji Pedia 📘🥳 </h2>
-        <p>Emoji Pedia is the website you can check the meaning of website </p>
-        <a class="link project10" href="https://codesandbox.io/s/neogcamp-emojipedia-forked-bvlwkd?file=/src/App.js"
-        target="_blank" ><i class="fas fa-code"></i>Browser Projects</a
-        >
-        <a class="link project11" href="https://bvlwkd.csb.app/"
-        target="_blank" ><i class="far fa-play-circle"></i>Live Watch</a
-        >
-      </div>
-    </section>
-    <section class="section"> 
-      <div class="container1 container1-center">
-        <h2>Do you know me? 🤔</h2>
-        <p>Quize about myself ? </p>
-        <a class="link project10" href="https://github.com/Rushikesh222/CLI-Quiz-App"
-        target="_blank" ><i class="fas fa-code"></i>Browser Projects</a
-        >
-        <a class="link project11" href="https://replit.com/@RushikeshShirsa/Quize-App-2?embed=1&output=1#index.js"
-        target="_blank" ><i class="far fa-play-circle"></i>Live Watch</a
-        >
-      </div>
-    </section>
-    <section class="section"> 
-      <div class="container1 container1-center">
-        <h2>Books For Fun😍</h2>
-        <p>books for Fun to read my friends </p>
-        <a class="link project10" href="https://codesandbox.io/s/bookscollection-forked-k3f3gh?file=/src/App.js"
-        target="_blank" ><i class="fas fa-code"></i>Browser Projects</a
-        >
-        <a class="link project11" href="https://fun-for-books.netlify.app/"
-        target="_blank" ><i class="far fa-play-circle"></i>Live Watch</a
-        >
-      </div>
-    </section>
-    <section class="section"> 
-      <div class="container1 container1-center">
-        <h2>Yoda Speak🛸</h2>
-        <p>You can make translate english into yoda speak </p>
-        <a class="link project10" href="https://github.com/Rushikesh222/Yoda-talk"
-        target="_blank" ><i class="fas fa-code"></i>Browser Projects</a
-        >
-        <a class="link project11" href="https://yoda-speak2.netlify.app/"
-        target="_blank" ><i class="far fa-play-circle"></i>Live Watch</a
-        >
-      </div>
-    </section>
-    <section class="section"> 
-      <div class="container1 container1-center">
-        <h2>Quiz for Attack On Titan Lover 🤔</h2>
-        <p>If You know Attack On Titan this Quiz is for you </p>
-        <a class="link project10" href="https://github.com/Rushikesh222/AOT-Quiz_APP"
-        target="_blank" ><i class="fas fa-code"></i>Browser Projects</a
-        >
-        <a class="link project11" href="https://replit.com/@RushikeshShirsa/AOT-QuizAPP?embed=1&output=1#index.js"
-        target="_blank" ><i class="far fa-play-circle"></i>Live Watch</a
-        >
-      </div>
-    </section>
-    <div class="footer-main-div">
-      <footer class="footer-social-icon">
-        <ul>
+    </main>
+
+    <footer class="border-t border-white/10">
+      <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-4 py-10 sm:flex-row sm:px-6">
+        <p class="text-sm text-zinc-500">© Rushikesh Shirsat</p>
+        <ul class="flex items-center gap-5">
           <li>
-            <a href="https://twitter.com/Rushike82547286" target="blank"><i class="fab fa-twitter"  ></i></a>
+            <a
+              class="text-zinc-400 transition hover:text-accent"
+              href="https://twitter.com/Rushike82547286"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Twitter</a
+            >
           </li>
           <li>
-            <a href="https://github.com/Rushikesh222" target="blank"><i class="fab fa-github"></i></a>
+            <a
+              class="text-zinc-400 transition hover:text-accent"
+              href="https://github.com/Rushikesh222"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/rushikesh-shirsat-42459a229/" target="blank"><i class="fab fa-linkedin-in"></i></i></a>
+            <a
+              class="text-zinc-400 transition hover:text-accent"
+              href="https://www.linkedin.com/in/rushikesh-shirsat-42459a229/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
           </li>
         </ul>
-      </footer>
-    </div> 
+      </div>
+    </footer>
+    <script src="./app.js"></script>
   </body>
 </html>
